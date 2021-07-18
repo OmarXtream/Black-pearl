@@ -1,0 +1,243 @@
+@font-face {
+
+  font-family: "JF Flat Regular";
+
+  src: url('../fonts/JF-Flat-regular.eot');
+
+  src: url('../fonts/JF-Flat-regular.eot?#iefix') format('embedded-opentype'),
+
+  url('../fonts/JF-Flat-regular.svg#JF Flat Regular') format('svg'),
+
+  url('../fonts/JF-Flat-regular.woff') format('woff'),
+
+  url('../fonts/JF-Flat-regular.ttf') format('truetype');
+
+  font-weight: normal;
+
+  font-style: normal;
+
+}
+
+
+
+body {
+
+  font-family: "JF Flat Regular", "roboto", sans-serif, arial;
+
+  color: #2F2B2B;
+
+  background-color: #F8F8FA
+
+}
+
+
+
+.toTop {
+
+  position: fixed;
+
+  height: 48px;
+
+  width: 48px;
+
+  left: 24px;
+
+  bottom: 32px;
+
+  background-color: #37AFDB;
+
+  color: #fff;
+
+  text-align: center;
+
+  line-height: 48px;
+
+  border-radius: 48px;
+
+  font-size: 1.5em;
+
+  cursor: pointer;
+
+  z-index: 999;
+
+}
+
+.toTop:hover {background-color: #51BCE3}
+
+
+
+.bg-dark {
+
+  background-color: #2E2E36 !important
+
+}
+
+@media (max-width: 576px) { .btn {width: 100% !important;} }
+
+.btn {padding: 10px 34px; margin-bottom: 8px !important}
+
+.btn-main {background-color: #37AFDB; outline: none !important; color: #fff;}
+
+.btn-main:hover,.btn-main:focus,.btn-main:active {background-color: #0094CB; color:#fff}
+
+.btn-outline-secondary {color: #fff}
+
+
+
+/* Start Nav */
+
+.navbar-dark {
+
+  background-color: #2E2E36 !important
+
+}
+
+.nav-link, .navLogin {
+
+  color: #fff !important;
+
+  margin-left: 36px;
+
+  font-size: 1.1em;
+
+}
+
+.navbar-nav .active > .nav-link {color: #37AFDB !important}
+
+
+
+.navbar h3 {
+
+  color: #fff;
+
+  text-transform: uppercase !important;
+
+}
+
+
+
+.navbar h3 span {
+
+  font-size: 0.6em;
+
+  text-transform: none !important;
+
+}
+
+
+
+/* End Nav */
+
+
+
+/* start main */
+
+.main {
+
+  background-color: #2E2E36;
+
+  padding: 16px;
+
+  color: #fff;
+
+}
+
+.main-img {
+
+  position: absolute;
+
+left: 0;
+
+top: 10%;
+
+height: 100%;
+
+}
+
+/* end main */
+
+
+
+/* start aboutus */
+
+.sections {padding: 92px 16px; color: #7C8386;}
+
+.sections h2 {color: #656C6F; margin-bottom: 80px; font-size: 2.4em;}
+
+.sections fieldset {border: 3px solid #D0D7D9; margin-bottom: 32px; position:relative; padding: 24px 16px;}
+
+.sections fieldset legend {width: auto; padding: 0 16px; margin-right: 24px; color: #656C6F}
+
+.sections p {font-size: 1.3em}
+
+/* end aboutus */
+
+
+
+/* start aboutus */
+
+.aboutus {padding: 92px 16px; position: relative;}
+
+.aboutus h2 {color: #656C6F; margin-bottom: 80px; font-size: 2.4em;}
+
+.aboutus p {color: #7C8386; font-size: 1.3em}
+
+/* end aboutus */
+
+
+
+/* start contact */
+
+.contact {padding: 92px 16px; color: #7C8386;}
+
+.contact h2 {color: #656C6F; margin-bottom: 80px; font-size: 2.4em;}
+
+.contact .contactus {width: 100%; padding-left: 16px;}
+
+.contact .contactus fieldset {border: 3px solid #D0D7D9; margin-bottom: 32px; position:relative;}
+.contact .contactus fieldset legend {width: auto; padding: 0 16px; margin-right: 24px; color: #656C6F}
+.contact .contactus fieldset:focus-within, .contact .contactus fieldset:hover {border: 3px solid #37AFDB;}
+.contact .contactus fieldset input:focus ~ legend, .contact .contactus fieldset textarea:focus ~ legend,
+.contact .contactus fieldset input:hover ~ legend, .contact .contactus fieldset textarea:hover ~ legend {color: #37AFDB}
+.contact .contactus fieldset input, .contact .contactus fieldset textarea {
+  outline: none; 
+  width: 100%; 
+  background: none !important; 
+  border: 0 !important; 
+  box-shadow: none !important;  
+  padding: 16px 32px;
+}
+
+
+.contact h5 {color: #656C6F; margin-bottom: 45px}
+
+.contact .part {background-color: #fff; padding: 24px; border-radius: 5px;}
+
+.contact a {color: inherit;}
+
+.contact a:hover {color: #636A6D;}
+
+/* end contact */
+
+
+
+/* Start Copyright */
+
+.copyright {
+
+  background-color: #2E2E36;
+
+  font-size: 1.1em;
+
+  padding: 16px;
+
+  color: #7C8386;
+
+  direction: rtl;
+
+  overflow: hidden;
+
+}
+
+/* End Copyright */
+
